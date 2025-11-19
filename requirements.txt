@@ -1,0 +1,9 @@
+# Python Libraries
+pandas
+requests
+python-dotenv
+# Para lidar com arquivos Parquet
+pyarrow 
+# Google Cloud Platform SDKs (Necessário para a Fase 2: Carregamento)
+google-cloud-storage
+google-cloud-bigquery
