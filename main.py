@@ -3,6 +3,11 @@ import requests
 import os
 from dotenv import load_dotenv
 
+
+
+from google.cloud import storage
+from google.cloud import bigquery
+
 # Nota: Em Cloud Functions, load_dotenv() não é usado, mas é essencial para testes locais.
 load_dotenv()
 
@@ -75,6 +80,18 @@ def run_weather_etl(request=None):
     
     return 'Processamento ETL local concluído com sucesso!', 200
 
+
+
+
+
+# adicioando novas funções 
+
+
+def upload_to_gcs(bucket_name, source_file_name)
+    
+
+
+
 if __name__ == "__main__":
     print("Iniciando teste local...")
-    run_weather_etl()
+    run_weather_etl()    
